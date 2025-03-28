@@ -40,3 +40,83 @@
 [2025-03-28 11:23:23] [INFO] Remote mode selected
 [2025-03-28 11:23:24] [INFO] Remote mode selected
 [2025-03-28 11:25:05] [INFO] Application started
+[2025-03-28 11:28:56] [INFO] Application started
+[2025-03-28 11:28:58] [INFO] User logged in successfully
+[2025-03-28 11:28:59] [INFO] Local mode selected
+[2025-03-28 11:29:01] [INFO] Remote mode selected
+[2025-03-28 11:29:02] [INFO] Remote mode selected
+[2025-03-28 11:29:04] [INFO] Remote mode selected
+[2025-03-28 11:29:05] [INFO] Remote mode selected
+[2025-03-28 11:29:05] [INFO] Remote mode selected
+[2025-03-28 11:29:06] [INFO] Remote mode selected
+[2025-03-28 11:29:07] [INFO] Remote mode selected
+[2025-03-28 11:29:08] [INFO] Remote mode selected
+[2025-03-28 11:29:09] [INFO] Remote mode selected
+[2025-03-28 11:29:09] [INFO] Remote mode selected
+[2025-03-28 11:29:09] [INFO] Remote mode selected
+[2025-03-28 11:29:10] [INFO] Remote mode selected
+[2025-03-28 11:29:10] [INFO] Remote mode selected
+[2025-03-28 11:29:11] [INFO] Remote mode selected
+[2025-03-28 11:29:11] [INFO] Remote mode selected
+[2025-03-28 11:29:11] [INFO] Remote mode selected
+[2025-03-28 11:29:12] [INFO] Remote mode selected
+[2025-03-28 11:29:12] [INFO] Remote mode selected
+[2025-03-28 11:29:12] [INFO] Remote mode selected
+[2025-03-28 11:29:12] [INFO] Remote mode selected
+[2025-03-28 13:55:57] [INFO] Application started
+[2025-03-28 13:56:00] [INFO] User logged in successfully
+[2025-03-28 13:56:01] [INFO] Local mode selected
+[2025-03-28 15:29:59] [INFO] Application started
+[2025-03-28 15:30:01] [INFO] User logged in successfully
+[2025-03-28 15:30:02] [INFO] Local mode selected
+[2025-03-28 15:38:23] [INFO] Application started
+[2025-03-28 15:38:25] [INFO] User logged in successfully
+[2025-03-28 15:38:25] [INFO] 本地 模式窗口已打开
+[2025-03-28 15:38:25] [INFO] Local mode selected
+[2025-03-28 15:38:28] [INFO] 尝试连接到 127.0.0.1:8888
+[2025-03-28 15:38:28] [INFO] 已连接到 127.0.0.1:8888
+[2025-03-28 15:38:40] [INFO] Application started
+[2025-03-28 15:39:53] [INFO] Application started
+[2025-03-28 15:39:55] [INFO] User logged in successfully
+[2025-03-28 15:39:56] [INFO] 本地 模式窗口已打开
+[2025-03-28 15:39:56] [INFO] Local mode selected
+[2025-03-28 15:39:59] [INFO] 远程 模式窗口已打开
+[2025-03-28 15:39:59] [INFO] Remote mode selected
+[2025-03-28 15:42:48] [INFO] 尝试连接到 127.0.0.1:8888
+[2025-03-28 15:42:48] [INFO] 已连接到 127.0.0.1:8888
+[2025-03-28 15:51:13] [INFO] Application started
+[2025-03-28 15:51:14] [INFO] User logged in successfully
+[2025-03-28 15:51:15] [INFO] 本地 模式窗口已打开
+[2025-03-28 15:51:15] [INFO] Local mode selected
+[2025-03-28 15:51:16] [INFO] 尝试连接到 127.0.0.1:8888
+[2025-03-28 15:51:18] [WARNING] 连接失败 - 服务器未响应PING请求
+[2025-03-28 15:51:26] [INFO] 尝试连接到 127.0.0.1:8888
+[2025-03-28 15:51:28] [WARNING] 连接失败 - 服务器未响应PING请求
+[2025-03-28 15:54:03] [INFO] 尝试连接到 127.0.0.1:8888
+[2025-03-28 15:54:05] [WARNING] 连接失败 - 服务器未响应PING请求
+[2025-03-28 15:55:15] [INFO] 尝试连接到 127.0.0.1:8888
+[2025-03-28 15:55:17] [WARNING] 连接失败 - 服务器未响应PING请求
+[2025-03-28 15:55:22] [INFO] 尝试连接到 127.0.0.1:8888
+[2025-03-28 15:55:24] [WARNING] 连接失败 - 服务器未响应PING请求
+[2025-03-28 15:55:32] [INFO] 尝试连接到 127.0.0.1:8888
+[2025-03-28 15:55:34] [WARNING] 连接失败 - 服务器未响应PING请求
+[2025-03-28 15:57:04] [INFO] Application started
+[2025-03-28 15:57:40] [INFO] User logged in successfully
+[2025-03-28 15:57:41] [INFO] 本地 模式窗口已打开
+[2025-03-28 15:57:41] [INFO] Local mode selected
+[2025-03-28 15:57:42] [INFO] 尝试连接到 127.0.0.1:8888
+[2025-03-28 15:57:47] [WARNING] 连接失败 - 服务器未响应PING请求
+[2025-03-28 16:06:35] [INFO] Application started
+[2025-03-28 16:06:43] [INFO] User logged in successfully
+[2025-03-28 16:06:44] [INFO] 本地 模式窗口已打开
+[2025-03-28 16:06:44] [INFO] Local mode selected
+[2025-03-28 16:06:45] [INFO] 尝试连接到 127.0.0.1:8888
+[2025-03-28 16:06:45] [INFO] 已连接到 127.0.0.1:8888
+[2025-03-28 16:07:01] [INFO] 尝试连接到 127.0.0.1:8888
+[2025-03-28 16:07:01] [INFO] 已连接到 127.0.0.1:8888
+[2025-03-28 16:10:40] [INFO] Application started
+[2025-03-28 16:10:51] [INFO] User logged in successfully
+[2025-03-28 16:10:56] [INFO] 本地 模式窗口已打开
+[2025-03-28 16:10:56] [INFO] Local mode selected
+[2025-03-28 16:10:58] [INFO] 尝试连接到 127.0.0.1:8888
+[2025-03-28 16:10:59] [INFO] 目标可达，连接成功

@@ -8,7 +8,10 @@ LoginWindow::LoginWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     setWindowTitle("用户登录");
-
+    // 设置默认账号密码
+    ui->usernameLineEdit->setText("admin");
+    ui->passwordLineEdit->setText("password");
+    ui->loginButton->setFocus();
     connect(ui->loginButton, &QPushButton::clicked, this, &LoginWindow::onLoginButtonClicked);
 }
 
