@@ -1,0 +1,15 @@
+debug/appmanager.o
+debug/authentication.o
+debug/udpmanager.o
+debug/communicationwindow.o
+debug/loginwindow.o
+debug/modeselectionwindow.o
+debug/logger.o
+debug/main.o
+debug/mainwindow.o
+debug/moc_appmanager.o
+debug/moc_udpmanager.o
+debug/moc_communicationwindow.o
+debug/moc_loginwindow.o
+debug/moc_modeselectionwindow.o
+debug/moc_mainwindow.o

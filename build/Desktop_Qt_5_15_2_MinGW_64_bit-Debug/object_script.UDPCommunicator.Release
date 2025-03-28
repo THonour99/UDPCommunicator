@@ -1,0 +1,15 @@
+release/appmanager.o
+release/authentication.o
+release/udpmanager.o
+release/communicationwindow.o
+release/loginwindow.o
+release/modeselectionwindow.o
+release/logger.o
+release/main.o
+release/mainwindow.o
+release/moc_appmanager.o
+release/moc_udpmanager.o
+release/moc_communicationwindow.o
+release/moc_loginwindow.o
+release/moc_modeselectionwindow.o
+release/moc_mainwindow.o
