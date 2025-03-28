@@ -59,5 +59,7 @@ void CommunicationWindow::onMessageReceived(const QString &message, const QStrin
 
 void CommunicationWindow::onBackButtonClicked()
 {
-    this->close();
+    this->hide();  // 先隐藏窗口
+    emit returnRequested();  // 发出返回信号
+    this->close();  // 然后关闭窗口
 }

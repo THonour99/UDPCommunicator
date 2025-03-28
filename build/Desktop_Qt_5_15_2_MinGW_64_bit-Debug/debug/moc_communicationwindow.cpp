@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_CommunicationWindow_t {
-    QByteArrayData data[7];
-    char stringdata0[94];
+    QByteArrayData data[8];
+    char stringdata0[110];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,17 +33,18 @@ struct qt_meta_stringdata_CommunicationWindow_t {
 static const qt_meta_stringdata_CommunicationWindow_t qt_meta_stringdata_CommunicationWindow = {
     {
 QT_MOC_LITERAL(0, 0, 19), // "CommunicationWindow"
-QT_MOC_LITERAL(1, 20, 19), // "onSendButtonClicked"
-QT_MOC_LITERAL(2, 40, 0), // ""
-QT_MOC_LITERAL(3, 41, 17), // "onMessageReceived"
-QT_MOC_LITERAL(4, 59, 7), // "message"
-QT_MOC_LITERAL(5, 67, 6), // "sender"
-QT_MOC_LITERAL(6, 74, 19) // "onBackButtonClicked"
+QT_MOC_LITERAL(1, 20, 15), // "returnRequested"
+QT_MOC_LITERAL(2, 36, 0), // ""
+QT_MOC_LITERAL(3, 37, 19), // "onSendButtonClicked"
+QT_MOC_LITERAL(4, 57, 17), // "onMessageReceived"
+QT_MOC_LITERAL(5, 75, 7), // "message"
+QT_MOC_LITERAL(6, 83, 6), // "sender"
+QT_MOC_LITERAL(7, 90, 19) // "onBackButtonClicked"
 
     },
-    "CommunicationWindow\0onSendButtonClicked\0"
-    "\0onMessageReceived\0message\0sender\0"
-    "onBackButtonClicked"
+    "CommunicationWindow\0returnRequested\0"
+    "\0onSendButtonClicked\0onMessageReceived\0"
+    "message\0sender\0onBackButtonClicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -53,21 +54,27 @@ static const uint qt_meta_data_CommunicationWindow[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       3,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       0,       // signalCount
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,   34,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   29,    2, 0x08 /* Private */,
-       3,    2,   30,    2, 0x08 /* Private */,
-       6,    0,   35,    2, 0x08 /* Private */,
+       3,    0,   35,    2, 0x08 /* Private */,
+       4,    2,   36,    2, 0x08 /* Private */,
+       7,    0,   41,    2, 0x08 /* Private */,
+
+ // signals: parameters
+    QMetaType::Void,
 
  // slots: parameters
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString,    4,    5,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString,    5,    6,
     QMetaType::Void,
 
        0        // eod
@@ -79,10 +86,20 @@ void CommunicationWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
         auto *_t = static_cast<CommunicationWindow *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->onSendButtonClicked(); break;
-        case 1: _t->onMessageReceived((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
-        case 2: _t->onBackButtonClicked(); break;
+        case 0: _t->returnRequested(); break;
+        case 1: _t->onSendButtonClicked(); break;
+        case 2: _t->onMessageReceived((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 3: _t->onBackButtonClicked(); break;
         default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (CommunicationWindow::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CommunicationWindow::returnRequested)) {
+                *result = 0;
+                return;
+            }
         }
     }
 }
@@ -116,15 +133,21 @@ int CommunicationWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 4;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
+        if (_id < 4)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 3;
+        _id -= 4;
     }
     return _id;
+}
+
+// SIGNAL 0
+void CommunicationWindow::returnRequested()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE

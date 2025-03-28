@@ -16,6 +16,9 @@ class CommunicationWindow : public QWidget
 public:
     explicit CommunicationWindow(CommunicationMode mode, QWidget *parent = nullptr);
     ~CommunicationWindow();
+signals:
+    // 已有的其他信号...
+    void returnRequested(); // 添加新信号，表示用户请求返回
 
 private slots:
     void onSendButtonClicked();

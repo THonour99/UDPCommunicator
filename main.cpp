@@ -34,7 +34,12 @@ int main(int argc, char *argv[])
         commWindow->setAttribute(Qt::WA_DeleteOnClose);
         commWindow->show();
 
-        // 通信窗口关闭后回到模式选择窗口
+        // 连接返回信号 - 添加这段代码
+        QObject::connect(commWindow, &CommunicationWindow::returnRequested, [&]() {
+            modeWindow.show();
+        });
+
+        // 可以保留这个连接，作为备份
         QObject::connect(commWindow, &CommunicationWindow::destroyed, [&]() {
             modeWindow.show();
         });
